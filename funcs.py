@@ -1,4 +1,5 @@
 def add():
+    print("Сейчас будем складывать два числа")
     item = int(input("Введите первое число: "))
     summand = int(input("Введите второе число: "))
     result = item + summand
