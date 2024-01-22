@@ -7,12 +7,12 @@ def add():
 
 def diff():
     # инпуты двух числе для вычитания
-    # minuend = int(input("Введите уменьшаемое число: "))
-    # subtrahend = int(input("Введите вычитаемое: "))
+    minuend = int(input("Введите уменьшаемое число: "))
+    subtrahend = int(input("Введите вычитаемое: "))
     # разница
-    # diff = minuend - subtrahend
-    # print("Разность равна: ", diff)
-    pass
+    diff = minuend - subtrahend
+    return diff
+
 
 
 if __name__ == '__main__':
